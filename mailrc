@@ -1,0 +1,35 @@
+
+
+#file location  cat THIS > ~/.mailrc | cat THIS >> /etc/mail.rc
+#to get nss-config-dir  setted ,by running getMailServerCerts.sh 
+
+account qq1018618929 {
+#smtp server
+set from=1018618929@qq.com
+set smtp=smtp.qq.com
+set smtp-auth-user=1018618929
+set smtp-auth-password="vkvnywgsdidnbddi"
+set smpt-auth=login
+
+#imap server
+set MAIL=imaps://1018618929@imap.qq.com:993
+set password-1018618929@imap.qq.com:993="vkvnywgsdidnbddi"
+set nss-config-dir=/root/.certs/
+
+}
+
+
+account qq516018505 {
+set from=516018505@qq.com
+set smtp=smtp.qq.com
+set smtp-auth-user=516018505
+set smtp-auth-password="ICUI4CU"
+set smpt-auth=login
+
+set MAIL=imaps://516018505@imap.qq.com:993
+set password-516018505@imap.qq.com:993="ICUI4CU"
+set nss-config-dir=/root/.certs/
+
+}
+
+
