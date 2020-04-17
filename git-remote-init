@@ -1,0 +1,7 @@
+#!/bin/bash
+PROJECTNAME=${1}
+echo ${PROJECTNAME}
+git remote add github git@github.com:/marble-git/${PROJECTNAME}.git
+git remote add gitee  git@gitee.com:/marble-git/${PROJECTNAME}.git
+
+
